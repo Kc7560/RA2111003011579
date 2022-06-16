@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    int m[5],i,sum=0;
+    printf("Enter the marks scored in five subjects :");
+    for(i=0;i<5;i++)
+    {scanf("%d",&m[i]);
+    sum+=m[i];}
+    printf("Avg of the given marks is %d",sum/5);
+    return 0;
+}
